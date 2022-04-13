@@ -1,0 +1,26 @@
+{
+  "name": "api_nodejs_express_mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeEnne/API_NodeJS_Express_Mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FelipeEnne/API_NodeJS_Express_Mongo/issues"
+  },
+  "homepage": "https://github.com/FelipeEnne/API_NodeJS_Express_Mongo#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.11"
+  }
+}

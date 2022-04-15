@@ -1,8 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 
-const Project = require("./models/project");
-const Task = require("./models/task");
+const Project = require("./app/models/project");
+const Task = require("./app/models/task");
 
 const app = express();
 
@@ -29,7 +29,6 @@ app.delete("/:projectId", async (req, res) => {
   res.send({ user: req.userId });
 });
 
-require("./controllers/authControler")(app);
-require("./controllers/projectControler")(app);
+require("./app/controllers/index")(app);
 
 app.listen(3000);
